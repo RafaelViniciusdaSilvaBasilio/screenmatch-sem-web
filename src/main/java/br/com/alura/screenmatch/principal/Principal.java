@@ -19,7 +19,7 @@ public class Principal {
 
     private ConverteDados conversor = new ConverteDados();
     private final String ENDERECO = "https://www.omdbapi.com/?t=" ;
-    private final String API_KEY = "&apikey=3417cd00";
+    private final String API_KEY = "&apikey="; // faça no omdb e depois use o postman
     public void exibeMenu() {
         System.out.println("Digite o nome da série pra busca");
         var nomeSerie = leitura.nextLine();
